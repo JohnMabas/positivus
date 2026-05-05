@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
-    <nav class="flex items-center justify-between h-28  p-10 ml-10 mr-10">
+    <nav class="flex items-center justify-between h-28 p-10 ml-10 mr-10 relative fixed">
       <img src="./img/positvus-logo.svg" alt="" />
-      <ul class="flex gap-10 items-center font-bold">
+      <ul class="flex gap-10 items-center font-bold ">
         <a href="">About Us</a>
         <a href="">Services</a>
         <a href="">Use Cases</a>
@@ -17,10 +17,34 @@
         <a href="">Blog</a>
       </ul>
       <a href="">
-        <button class="rounded-2xl px-5 py-5 font-bold border">Request a quote</button>
+        <button class="rounded-2xl px-5 py-5 font-bold border text-black  bg-white hover:bg-black hover:text-white  ">
+          Request a quote
+        </button>
       </a>
     </nav>
 
-    
+    <main>
+      <div class="flex gap-48 items-center">
+        <div class="ml-10 space-y-3">
+          <h1 class="text-6xl font-bold leading-14">
+            Navigating the <br />
+            digital landscape <br />
+            for success
+          </h1>
+          <p class="leading-7">
+            Our digital marketing agency helps businesses grow and succeed
+            <br />
+            online through a range of services including SEO, PPC, social media
+            <br />
+            marketing, and content creation.
+          </p>
+          <button class="rounded-2xl w-72 p-4  text-2xl bg-black hover:bg-white hover:text-black border text-white ">Book a consulation</button>
+        </div>
+
+        <div>
+          <img src="./img/positivus-bg-img.svg" alt="" />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
