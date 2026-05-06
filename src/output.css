@@ -203,6 +203,12 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
+  }
+  .left-20 {
+    left: calc(var(--spacing) * 20);
+  }
   .z-20 {
     z-index: 20;
   }
